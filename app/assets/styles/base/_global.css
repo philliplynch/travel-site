@@ -1,0 +1,16 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0; /*I think this should be in normalize.css, but it is not.  So, I put it in here.*/
+    /*Chrome browser sets body margin at 8px and has to be overirdden if you want a different setting.*/
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
